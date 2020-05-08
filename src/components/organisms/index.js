@@ -1,5 +1,7 @@
 import Carousel from './Carousel';
+import MultiSelect from './MultiSelect';
 
 export{
-  Carousel
+  Carousel,
+  MultiSelect
 }

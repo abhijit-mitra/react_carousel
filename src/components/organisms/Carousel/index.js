@@ -34,6 +34,12 @@ class Carousel extends PureComponent {
     this.screenWidth = this.screens[0].offsetWidth;
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    if(prevProps.data !== this.props.data){
+      this.setState({sliderLeft:0, largeScreenIndex:1})
+    }
+  }
+
   render() {
     const {data}=this.props;
     const {sliderLeft, largeScreenIndex} = this.state;
