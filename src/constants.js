@@ -1,8 +1,9 @@
 export const allCategories=[
-  {id:1, name:'mobiles'},
-  {id:2, name:'electronics'},
-  {id:3, name:'laptops'},
-  {id:4, name:'fashion'}]
+  {id:1, name:'Electronics'},
+  {id:2, name:'Furnitues'},
+  {id:3, name:'Sports'},
+  {id:4, name:'Fashion'},
+]
 
 
 export const allProducts = [
@@ -10,36 +11,67 @@ export const allProducts = [
     url:'https://images.techhive.com/images/article/2016/10/iphone7plus-100686585-large.jpg',
     name:'Iphone 7',
     price:'50k',
-    categoryIds :[1, 2]
+    categoryIds :[1]
   },
   {
     url:'https://cnet3.cbsistatic.com/img/XZaRQsEpWqQ75UXC-jtlbL4TnBw=/1200x675/2020/04/22/9c0515dc-bb9f-4386-9052-79885ef81ca8/iphone-se-2020-21.jpg',
     name:'Iphone 10',
     price:'90k',
-    categoryIds :[1, 2]
+    categoryIds :[1]
   },
   {
     url:'https://images-na.ssl-images-amazon.com/images/I/81HSzsIkJdL._AC_SX342_.jpg',
     name:'Iphone 11',
     price:'90k',
-    categoryIds :[1, 2]
+    categoryIds :[1]
   },
   {
     url:'https://cdn.vox-cdn.com/thumbor/3SDag4_szhZrsfE86H7OGXcesxs=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19395168/vpavic_191118_3800_0122.jpg',
     name:'Macbook Pro',
     price:'200k',
-    categoryIds :[2, 3]
+    categoryIds :[1]
   },{
     url:'https://cdn.vox-cdn.com/thumbor/GwXxxi4AobcKVlfS3Mpr3hR3UUU=/0x0:1020x677/1200x800/filters:focal(492x226:654x388)/cdn.vox-cdn.com/uploads/chorus_image/image/60347191/oo04_09_1316tt.0.0.jpeg',
     name:'Macbook Air',
     price:'100k',
-    categoryIds :[2, 3]
+    categoryIds :[1]
   },
   {
     url:'https://cdn.vox-cdn.com/thumbor/3SDag4_szhZrsfE86H7OGXcesxs=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19395168/vpavic_191118_3800_0122.jpg',
     name:'Macbook Pro 2',
     price:'100k',
-    categoryIds :[2, 3]
+    categoryIds :[1]
+  },
+  {
+    url:'https://ii1.pepperfry.com/media/catalog/product/c/a/568x284/camila-3-seater-sofa-in-garnet-red-colour-by-casacraft-camila-3-seater-sofa-in-garnet-red-colour-by--pfaxws.jpg',
+    name:'Sofa',
+    price:'20k',
+    categoryIds :[2]
+  },{
+    url:'https://www.woodenstreet.com/image/data/dining-tables/paul-dining-table/revised/honey/front-table.jpg',
+    name:'Table',
+    price:'15k',
+    categoryIds :[2]
+  },{
+    url:'https://www.ulcdn.net/images/products/290945/original/Bocado_Columbian_Walnut_2_Door_LP.jpg?1575882227',
+    name:'Cupboard',
+    price:'50k',
+    categoryIds :[2]
+  },{
+    url:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsw2SyEYzmhTweZjO86Jc5CPIGiTEiJJdqW7jajMOda-W9CP5M&usqp=CAU',
+    name:'Cricket Bat',
+    price:'5k',
+    categoryIds :[3]
+  },{
+    url:'https://5.imimg.com/data5/LY/NF/MY-3239865/badmintos-bat-500x500.jpg',
+    name:'Badminton Racket',
+    price:'10k',
+    categoryIds :[3]
+  },{
+    url:'https://www.thestatesman.com/wp-content/uploads/2020/04/1c5b1aa3386eeb2c21d633f04e2ddfbe.jpg',
+    name:'Footbal',
+    price:'2k',
+    categoryIds :[3]
   },
   {
     url:'https://jadeblue.com/media/catalog/product/cache/1/thumbnail/1000x/17f82f742ffe127f42dca9de82fb58b1/i/4/i40a_1.jpg',
