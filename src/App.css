@@ -1,0 +1,30 @@
+
+.flex-none{
+  flex: 0 0 auto;
+}
+
+.cursor-pointer{
+  cursor: pointer
+}
+
+
+.disabled{
+  pointer-events:none!important;
+  opacity: 0.5;
+}
+
+.white{
+  color:#fff;
+}
+
+.top-0{
+  top:0px;
+}
+
+.w-33{
+  width:33.33%;
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
+}

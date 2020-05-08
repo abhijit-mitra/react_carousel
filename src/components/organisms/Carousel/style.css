@@ -1,0 +1,26 @@
+.carousal{
+  height: 500px;
+}
+
+.arrow{
+  font-size: 40px;
+  top: calc(50% - 40px);
+}
+
+.arrow.left{
+  left: 0px;
+}
+
+.arrow.right{
+  right: 0px;
+}
+
+.slider{
+  left:0;
+  transition: left 1s;
+}
+
+.screens{
+  height: 75%;
+  transition: height 1s;
+}
