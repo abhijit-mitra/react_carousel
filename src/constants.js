@@ -58,7 +58,7 @@ export const allProducts = [
     price:'1k',
     categoryIds :[4]
   },{
-    url:'https://image.shutterstock.com/image-photo/various-blue-jeans-on-wooden-260nw-1213446232.jpg',
+    url:'https://us.123rf.com/450wm/ollinka/ollinka1804/ollinka180400051/100550511-jeans-stacked-on-a-wooden-background.jpg?ver=6',
     name:'Jeans',
     price:'2k',
     categoryIds :[4]
